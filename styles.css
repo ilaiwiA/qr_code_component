@@ -29,3 +29,9 @@ main .sub_text p {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
 }
+
+@media screen and (max-width: 500px) {
+    main {
+        width: 550px;
+    }
+}
