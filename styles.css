@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    border-radius: 18px;
+    padding: 16px;
+    width: 275px;
+}
+
+main .qr img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+main .main_text h1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+main .sub_text p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
